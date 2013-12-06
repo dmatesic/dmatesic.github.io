@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.name }}</h1>
+        <p class="view">
+          <a href="/index.html">about</a><br />
+          <a href="/experience.html">experience</a><br />
+          <a href="/projects.html">projects</a><br />
+        </p>
+        <p class="view">
+          <a href="https://www.linkedin.com/in/domenicmatesic" title="linked in"><i class="fa fa-2x fa-linkedin"></i></a>
+          <a href="https://www.github.com/dmatesic" title="github"><i class="fa fa-2x fa-github-alt"></i></a>
+          <a href="https://www.twitter.com/dmatesic" title="twitter"><i class="fa fa-2x fa-twitter"></i></a>
+          <a href="https://www.flickr.com/photos/dmatesic" title="flickr"><i class="fa fa-2x fa-flickr"></i></a>
+        </p>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>
+          This site is built using <a href="http://jekyllrb.com">Jekyll</a> and hosted on <a href="https://github.com">GitHub</a>. The theme was created by <a href="https://github.com/orderedlist">orderedlist</a> and the icons are courtesy of <a href="http://fontawesome.io">Font Awesome</a>.
+        </small></p>
+      </footer>
+    </div>
+    <script src="js/scale.fix.js"></script>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-12473974-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html>
