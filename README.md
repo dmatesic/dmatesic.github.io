@@ -1,4 +1,5 @@
 dmatesic.github.io
 ==================
 
-Domenic Matesic
+Personal website of Domenic Matesic.
+http://dmatesic.com
