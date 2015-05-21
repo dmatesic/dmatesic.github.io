@@ -1,4 +1,4 @@
-<a href="http://www.yalber.com"><img src="../img/yalber_logo.png" title="Yalber" class="logo"></a>
+<a href="http://www.yalber.com"><img src="../img/yalber_logo.png" title="Yalber" class="logo" style="margin-left:-20px"></a>
 Yalber / Teaneck, NJ
 ---------------------
 ### Developer / Feb 2013 – Present
