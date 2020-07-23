@@ -1,5 +1,5 @@
 dmatesic.github.io
 ==================
 
-OLD Personal website of Domenic Matesic. Using ghost now instead of jekyll.
+Personal website of Domenic Matesic  
 http://dmatesic.com
